@@ -3,14 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio | Starter Template</title>
+    <title>Alfonso Aldave | Portfolio</title>
     <link rel="stylesheet" href="CSS/style.css">
 </head>
 <body>
 
     <nav class="navbar">
         <div class="container">
-            <a href="#" class="logo">MyPortfolio</a>
+            <a href="#" class="logo">AA</a>
             <ul class="nav-links">
                 <li><a href="#hero">Home</a></li>
                 <li><a href="#projects">Projects</a></li>
@@ -20,40 +20,69 @@
     </nav>
 
     <header id="hero" class="hero">
-        <div class="container">
-            <h1>Jane Doe</h1>
-            <p>Creative Front-End Developer & UI Designer</p>
+        <div class="hero-overlay"></div>
+        <div class="container hero-content">
+            <h1>Alfonso Aldave</h1>
+            <p>Creative Contact Center Developer & UI Designer</p>
+            <a href="#projects" class="btn btn-primary">View My Work</a>
         </div>
     </header>
 
     <main>
         <section id="projects" class="projects">
             <div class="container">
-                <h2 class="section-title">My Projects</h2>
+                <h2 class="section-title">Featured Projects</h2>
                 <div class="project-grid">
-                    <article class="project-card">
-                        <h3>Project One</h3>
-                        <p>A brief description of the first project and its core features.</p>
-                        <a href="#" class="btn">View Project</a>
+                    <article class="project-card fade-in">
+                        <div class="card-content">
+                            <h3>Project One</h3>
+                            <p>Architecting seamless customer experiences through innovative contact center solutions.</p>
+                            <a href="#" class="btn-text">Explore Case Study &rarr;</a>
+                        </div>
                     </article>
-                    <article class="project-card">
-                        <h3>Project Two</h3>
-                        <p>A brief description of the second project and its core features.</p>
-                        <a href="#" class="btn">View Project</a>
+                    <article class="project-card fade-in">
+                        <div class="card-content">
+                            <h3>Project Two</h3>
+                            <p>Modernizing legacy IVR systems with intuitive design and cloud-native technology.</p>
+                            <a href="#" class="btn-text">Explore Case Study &rarr;</a>
+                        </div>
                     </article>
-                    <article class="project-card">
-                        <h3>Project Three</h3>
-                        <p>A brief description of the third project and its core features.</p>
-                        <a href="#" class="btn">View Project</a>
+                    <article class="project-card fade-in">
+                        <div class="card-content">
+                            <h3>Project Three</h3>
+                            <p>Designing high-performance agent desktops that prioritize usability and efficiency.</p>
+                            <a href="#" class="btn-text">Explore Case Study &rarr;</a>
+                        </div>
                     </article>
                 </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <div class="container">
+                <h2 class="section-title">Get In Touch</h2>
+                <p class="contact-text">Interested in working together or just want to say hi?</p>
+                <a href="mailto:placeholder@example.com" class="btn btn-outline">Send a Message</a>
             </div>
         </section>
     </main>
 
     <footer class="footer">
         <div class="container">
-            <p>&copy; <span id="current-year"></span> Jane Doe. Built with HTML, CSS, and JS.</p>
+            <div class="footer-content">
+                <div class="social-links">
+                    <a href="#" aria-label="GitHub">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-github"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+                    </a>
+                    <a href="#" aria-label="LinkedIn">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-linkedin"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+                    </a>
+                    <a href="#" aria-label="Email">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-mail"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+                    </a>
+                </div>
+                <p>&copy; <span id="current-year"></span> Alfonso Aldave. Built with focus on UX & Performance.</p>
+            </div>
         </div>
     </footer>
 
